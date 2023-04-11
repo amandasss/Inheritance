@@ -1,0 +1,17 @@
+class Vehicle
+{
+    public void StartEngine(string input)
+    {
+        Console.WriteLine($"Starting engine: ");
+    }
+
+    public void StopEngine(string input)
+    {
+        Console.WriteLine($"Stopping engine: ");
+    }
+
+    public virtual void Drive()
+    {
+        Console.WriteLine("Default implementation of the Drive method");
+    }
+}
